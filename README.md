@@ -1,22 +1,20 @@
 # zsh-exa-plugin
 
-## Purpose
+This zsh plugin enables a number of aliases allowing `exa`, to act as a drop-in
+replacement for `ls` and `tree`.
 
-This zsh plugin enables a number of aliases extending `exa`, the modern replacement for `ls`.
+## Installation
 
-## Use
+Install [`exa`](https://the.exa.website). See
+[exa installation](https://the.exa.website/#installation) for platform specific
+installation instructions.
 
-To use it, you should first install [`exa`](https://the.exa.website). You can do so easily using [Homebrew](https://brew.sh) on the Mac:
+Next, download this repo into your custom plugins directory. For my installation
+using [Oh My Zsh](https://ohmyz.sh/), Clone the repo to
+`~/.oh-my-zsh/custom/plugins`.
 
-```bash
-brew install exa
-```
+Finally, add `zsh-exa-plugin` to the plugins array of your zshrc file:
 
-Next, download this repo into your custom plugins directory. For my installation using [Oh My Zsh](https://ohmyz.sh/), I cloned the repo to `~/.oh-my-zsh/custom/plugins`.
-
-Lastly, add `zsh-aliases-exa` to the plugins array of your zshrc file:
-
-```bash
+```sh
 plugins=(... zsh-aliases-exa)
 ```
-
